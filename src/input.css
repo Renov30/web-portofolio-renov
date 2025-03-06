@@ -2,4 +2,14 @@
 @theme {
   --color-primary: #14b8a6;
   --color-dark: #0f172a;
+  --container-padding: 1rem; /* Padding default */
+  --container-max-width: 1320px; /* Breakpoint untuk 2xl */
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+  max-width: var(--container-max-width);
 }
